@@ -1,0 +1,78 @@
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+
+.info {
+    display: flex;
+    padding: 0 32px 0 24px;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    width: 35%;
+    background-color: var(--bg-info);
+}
+
+.infoEmpty {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-info-empty);
+}
+
+
+.infoTextEmpty {
+    color: var(--text-empty);
+}
+
+.infoTitle {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.infoText {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--text);    
+}
+
+.infoTextName {
+    padding: 7px 10px;
+    color: var(--text-white);
+    background-color: var(--bg-btn);
+    border-radius: 100px;
+
+}
+
+.infoTextStarCount {
+    display: flex;
+    align-items: center;
+    line-height: 19px;
+    column-gap: 8px;
+}
+
+.infoLanguage {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+}
+
+.infoTextLanguage {
+    padding: 3px 10px;
+    background-color: var(--bg-text);
+    border-radius: 100px;    
+}
+
+.table {
+    display: flex;
+    width: 100%;
+}
