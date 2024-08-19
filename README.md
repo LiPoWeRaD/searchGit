@@ -20,7 +20,7 @@
 - node-sass
 
 ## Как запустить 
--  Указать токен в файле "scr/api/API_URL.ts"
+-  Указать токен в файле "src/api/API_URL.ts"
 -  Команды 
     1. ```npm run start``` - для запуска 
     2. ```npm run build``` - для сборки
